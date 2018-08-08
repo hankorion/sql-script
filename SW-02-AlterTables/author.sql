@@ -2,9 +2,13 @@
 --
 --	Script to maintain the table schema
 -- 	2018 Copyright (c) SG Win
---	Script v. 0.0.2
+--	Script v. 0.0.3
+-- ##################################################
+
+-- ##################################################
 --  v. 0.0.1 - init via JIRA DBA-001
 --  v. 0.0.2 - update to reformat the script via JIRA DBA-002
+--  v. 0.0.3 - add new column a_alias via JIRA DBA-005
 -- ##################################################
 
 CLEAR SCREEN;
@@ -27,7 +31,8 @@ ALTER TABLE
 DELETE FROM
   author;DROP TABLE author CASCADE CONSTRAINTS;create table author (
     a_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-    a_name VARCHAR(30) NOT NULL
+    a_name VARCHAR(30) NOT NULL,
+    a_alias VARCHAR(30) NOT NULL
   );
 
 
