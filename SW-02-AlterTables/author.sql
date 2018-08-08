@@ -29,11 +29,14 @@ PROMPT ;
 ALTER TABLE
   author DROP CONSTRAINT PK_AUTHOR_A_ID;
 DELETE FROM
-  author;DROP TABLE author CASCADE CONSTRAINTS;create table author (
-    a_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-    a_name VARCHAR(30) NOT NULL,
-    a_alias VARCHAR(30) NOT NULL
-  );
+  author;DROP TABLE author CASCADE CONSTRAINTS;
+  
+  
+create table author (
+  a_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  a_name VARCHAR(30) NOT NULL,
+  a_alias VARCHAR(30) NOT NULL
+);
 
 
 -- Add PK constraint for table author
