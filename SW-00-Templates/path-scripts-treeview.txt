@@ -1,0 +1,25 @@
+Folder PATH listing for volume OS
+Volume serial number is 9E99-C197
+C:.
+|   path-scripts-treeview.bat
+|   path-scripts-treeview.ps1
+|   path-scripts-treeview.txt
+|   
++---SW-01-DatabaseDiagram
+|       classicmodels.svg
+|       
++---SW-02-AlterTables
+|       010-offices.sql
+|       020-employees.sql
+|       
++---SW-03-SequencesTriggersViewsInsertSelect
+|       DBA-001-010-offices-insert.sql
+|       
++---SW-04-SelectQuery
+|       DBA-002-010-offices-query.sql
+|       
++---SW-05-FunctionsProceduresRegexpCommit
++---SW-06-CursorsSavepointRollback
++---SW-07-RecordsExceptions
++---SW-08-PackagesCollections
+\---SW-09-Jobs
