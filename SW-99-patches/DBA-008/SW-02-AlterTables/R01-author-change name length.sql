@@ -1,5 +1,5 @@
 
-alter table author modify a_name varchar2(50);
+alter table author modify a_name varchar(50);
 
 COMMIT;
 
